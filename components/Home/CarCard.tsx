@@ -15,9 +15,9 @@ useEffect(()=>{
   return car&& (
     <>
       <div
-        className="roup bg-gray-50 p-2 sm:p-5 rounded-3xl m-1 sm:m-5
+        className="roup bg-gray-200 p-2 sm:p-5 rounded-3xl  sm:m-5 
 hover:bg-white 
-hover:border-[1px] cursor-pointer duration-50
+ cursor-pointer duration-50 ease-in-out transition
 border-blue-500"
       >
         <h2 className="text-[20px] font-medium mb-2">
